@@ -87,21 +87,21 @@ The data within a plugin persists for the life of the rtmbot process. If you nee
 Some rtm data should be handled upstream, such as channel and user creation. These should create the proper objects on-the-fly.
 
 
-Quick Order Additional Plugins
+Pegasus Team Additional Plugins
 ==============================
 All of the additions made to our quick order bot are available within the plugins directory.
 
 Created Plugins
 ---------------
 1. Standup.py
-    * Notifies the quick order team that it is time to have our standup.
+    * Notifies the pegasus team that it is time to have our standup.
 2. Lunch.py
-    * Notifies the quick order team that it is time to go eat some lunch.
+    * Notifies the pegsus team that it is time to go eat some lunch.
     * On specific days it will remind the team about good places to eat, for example the food market by MSQ on Thursdays.
-3. c3qo_responder.py
-    * Watches the quick order channel for the key word 'c3qo' and replies with relevant messages.
+3. pegasus_responder.py
+    * Watches the pegsus channel for '@pegasus' and replies with relevant messages.
 4. PR_checker.py
-    * Notifies the quick order team of all the open pull requests in their repos.
+    * Notifies the pegasus team of all the open pull requests in their repos.
     * If a pull request is more than 2 days old it will be added to a separate list so that the team knows which PRs to prioritise.
     * Note - If you want to setup pr_checker.py you need to create your own github token that has read access to your repos. Place this token into a file called /plugins/helpers/github_token.py (an example version can be seen in this folder).
 
