@@ -2,6 +2,7 @@ applications:
 - name: pegasus-bot
   domain: eu-gb.mybluemix.net
   no-route: true
+  health-check-type: process
   instances: 1
   memory: 64M
   stack: cflinuxfs2

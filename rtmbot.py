@@ -167,7 +167,7 @@ def main_loop():
         logging.basicConfig(filename=config["LOGFILE"], level=logging.INFO, format='%(asctime)s %(message)s')
     else:
         # SET TO STDOUT
-        logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
+        logging.basicConfig(level=logging.ERROR, format='%(asctime)s %(message)s')
     logging.info(directory)
     try:
         logging.info("Starting bot...")
