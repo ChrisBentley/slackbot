@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+env
+/plugins/helpers/github_token.py
+rtmbot.conf

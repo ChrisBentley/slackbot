@@ -1,0 +1,8 @@
+applications:
+- name: pegasus-bot
+  domain: eu-gb.mybluemix.net
+  no-route: true
+  instances: 1
+  memory: 64M
+  stack: cflinuxfs2
+  buildpack: https://github.com/cloudfoundry/python-buildpack#v1.5.0
