@@ -116,3 +116,9 @@ You will then need to add the bot integration to the channel  of your choice (/i
 Other Additions
 ---------------
 When creating plugins that will be triggered at a certain time it is adviseable to use the helper script "time_fixer.py" to create a datetime object as has been done in all of the quick order plugins. This is so that the time when the plugin is triggered is correct irrespective of whether it is british summer time or if the server it is being ran from is using UTC or GMT time.
+
+
+TODO list:
+----------
+Add music suggestion feature inspiried by Tara
+Add meme generator ability similar to thinking Gavin
