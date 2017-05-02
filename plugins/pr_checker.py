@@ -15,7 +15,7 @@ def check_pr():
     # Check it's a weekday.
     if now.weekday() < 5:
         # Check if it's 9:45am
-        if now.hour == 9 and now.minute == 45:
+        if now.hour == 9 and now.minute == 30:
             message = "Good morning team! Here is today's pull request information...\n\n"
             message += github_fetcher.main(big_picture=False)
             outputs.append([channel, message])
