@@ -27,7 +27,7 @@ def get_all_valid_PRs(gh):
                 continue
             if 'wip' in pull_request.title.lower():
                 continue
-            if 'rtm' in pull_request.title.lower():
+            if 'spike' in pull_request.title.lower():
                 continue
             else:
                 # Append the repo name to the pr for later use
