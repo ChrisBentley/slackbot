@@ -8,7 +8,7 @@ from datetime import datetime
 
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
 GITHUB_ORGANISATION = 'DigitalInnovation'
-GITHUB_REPOS_DICT = ['mns-fe-starter-kit', 'fesk-store-listing', 'mns-core-ui', 'mns-core-ui-header', 'fesk-metrics', 'mns-core-test']
+GITHUB_REPOS_DICT = ['mns-fe-starter-kit', 'fesk-store-listing', 'mns-core-ui', 'mns-core-ui-header', 'fesk-metrics', 'mns-core-test', 'mns-fe-unicorn-platform']
 
 
 def get_all_valid_PRs(gh):
