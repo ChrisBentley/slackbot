@@ -1,5 +1,4 @@
 # Pegasus Bot
-=============
 
 This is the slack bot used for team pegasus at M&S. Its most useful feature is the Pull Request Checker which informs the team about open PRs across our various repos.
 
@@ -10,7 +9,6 @@ Example output:
 The bot is built using a [python real-time messaging bot](https://github.com/errror/python-rtmbot)
 
 ## Pegasus Bot Plugins
-==============================
 All of the additions made to our pegasus bot are available within the plugins directory.
 
 Created Plugins
